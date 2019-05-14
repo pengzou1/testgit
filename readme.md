@@ -334,6 +334,7 @@ a.**推送分支**
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190513205110451.jpg)
     
  现在我们的小伙伴要在dec分支上做开发，就必须把远程的origin的dec分支到本地来，于是可以使用命令创建本地dec分支：git checkout  –b dec origin/dec
+ 或者 git checkout  dec
 现在小伙伴们就可以在dev分支上做开发了，开发完成后把dev分支推送到远程库时。
 
 如下：
