@@ -327,11 +327,11 @@ a.**推送分支**
      推送master分支： 使用命令 git push origin master
       推送其它分支dec:git push origin dec:dec
       
-    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190513204922334.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2lpbXBhY3Q=,size_16,color_FFFFFF,t_70)
+   ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190513204922334.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2lpbXBhY3Q=,size_16,color_FFFFFF,t_70)
       
   接着进入testgit2目录，进行克隆远程的库到本地来，如下：
   
-    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190513205110451.jpg)
+   ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190513205110451.jpg)
     
  现在我们的小伙伴要在dec分支上做开发，就必须把远程的origin的dec分支到本地来，于是可以使用命令创建本地dec分支：git checkout  –b dec origin/dec
 现在小伙伴们就可以在dev分支上做开发了，开发完成后把dev分支推送到远程库时。
